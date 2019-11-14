@@ -1,0 +1,13 @@
+export HADOOP_HOME=/opt/hadoop
+
+export JAVA_HOME=/usr/java/jdk1.8.0_73
+
+export HIVE_HOME=/opt/hadoop/hive
+
+export SQOOP_HOME=/usr/lib/sqoop/sqoop-1.4.6.bin__hadoop-2.0.4-alpha
+
+export PATH=$PATH:/opt/hadoop/bin:/opt/hadoop/sbin:$HIVE_HOME/bin
+
+export PATH=$PATH:$SQOOP_HOME/bin
+
+export PATH=$PATH:/opt/maven/bin
